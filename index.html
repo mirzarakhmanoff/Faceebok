@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="title">
+            <h2>facebook</h2>
+            <p>
+              Facebook помогает вам всегда оставаться на связи и общаться со
+              своими знакомыми.
+            </p>
+          </div>
+          <div class="email">
+            <div class="email__part">
+              <div class="input__part">
+                <div class="elektron">
+                  <input
+                    type="text"
+                    placeholder="Elektron pochta yoki telefon raqami?"
+                  />
+                </div>
+                <div class="elektron">
+                  <input type="password" placeholder="Parol" />
+                </div>
+                <div class="elektron">
+                  <button>Вход</button>
+                </div>
+                <div class="elektron">
+                  <a href="#">Забыли пароль?</a>
+                </div>
+                <hr style="margin: 10px; opacity: 50%" />
+                <div class="elektron">
+                  <button class="btns">Создать новый аккаунт</button>
+                </div>
+              </div>
+            </div>
+            <div class="title__part">
+              <p>
+                <a href="">Создать Страницу</a> знаменитости, музыкальной группы
+                или компании.
+              </p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="next__part">
+      <div class="next__page">
+        <div class="sign__up">
+          <div class="head">
+            <span>Sign Up</span>
+            <i class="fa-solid fa-xmark x-button"></i>
+          </div>
+          <div class="text">
+            <p>It's quick and easy</p>
+          </div>
+          <br />
+          <hr />
+        </div>
+        <div class="inputs">
+          <div class="entering">
+            <div class="names">
+              <div class="name">
+                <input type="text" class="firstName" placeholder="First name" />
+              </div>
+              <div class="name">
+                <input type="text" class="lastName" placeholder="Last name" />
+              </div>
+            </div>
+            <div class="email__part">
+              <div class="email">
+                <input
+                  type="text"
+                  class="email"
+                  placeholder="Mobile number or email"
+                />
+              </div>
+              <div class="email">
+                <input
+                  type="password"
+                  class="password"
+                  placeholder="New password"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="dates">
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="ratios">
+            <input type="radio" id="radio1" name="options" />
+            <label for="radio1">Женщина</label>
+            <input type="radio" id="radio2" name="options" />
+            <label for="radio2">Мужчина</label>
+            <input type="radio" id="radio3" name="options" />
+            <label for="radio3">Другое</label>
+          </div>
+
+          <button class="submit" type="submit">Регистрация</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
